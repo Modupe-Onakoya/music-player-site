@@ -15,7 +15,6 @@ const App = () => {
 
 
       <div className='h-[90%] flex'>
-        <SignUp />
         <SideBar />
         <Display />
 
