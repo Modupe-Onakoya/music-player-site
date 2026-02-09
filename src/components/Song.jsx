@@ -7,11 +7,11 @@ const Song = ({ image, namee, desc }) => {
     return (
         <div onClick={() => { playWithId(id) }} className='max-sm:'>
 
-            <img src={image} alt="" className='size-40 max-sm:size-20' />
-            <p>
+            <img src={image} alt="" className='size-20' />
+            <p className='text-[13px]'>
                 {namee}
             </p>
-            <p className='max-sm:w-30'>
+            <p className='max-sm:w-30 text-[13px]'>
                 {desc}
             </p>
         </div>
