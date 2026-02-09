@@ -17,7 +17,7 @@ const App = () => {
       <div className='h-[90%] flex'>
         <h1 className='sm:hidden p-4 font-bold'>Kindly view on desktop screen</h1>
 
-        <SideBar />
+        {/* <SideBar /> */}
         <Display />
 
       </div>
