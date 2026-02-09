@@ -7,7 +7,7 @@ const Player = () => {
 
     const { track, seekBar, seekBg, playStatus, play, pause, time, previous, next, seekSong } = useContext(PlayerContext)
     return (
-        <div className='bg-black flex py-4 mb-200'>
+        <div className='bg-black flex py-4 max-sm:hidden'>
 
             <div className='h-[10%] bg-black flex justify-between item-center text-white px-4'>
                 <div className='hidden lg:flex items-center  gap-4'>
@@ -29,7 +29,6 @@ const Player = () => {
                         <img onClick={play} src={assets.play_icon} className='w-4 cursor pointer' alt="" />
 
                     }
-                    <img onClick={play} src={assets.play_icon} className='w-4 cursor pointer' alt="" />
                     <img onClick={next} src={assets.next_icon} className='w-4 cursor pointer' alt="" />
                     <img src={assets.loop_icon} className='w-4 cursor pointer' alt="" />
 
