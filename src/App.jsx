@@ -3,7 +3,7 @@ import SideBar from './components/SideBar'
 import Display from './components/Display'
 import { PlayerContext } from './context/PlayerContext'
 import Player from './components/Player'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import SignUp from './components/SignUp'
 
 const App = () => {
@@ -15,6 +15,8 @@ const App = () => {
 
 
       <div className='h-[90%] flex'>
+        <h1 className='sm:hidden p-4 font-bold'>Kindly view on desktop screen</h1>
+
         <SideBar />
         <Display />
 

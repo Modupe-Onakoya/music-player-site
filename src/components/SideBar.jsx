@@ -21,7 +21,7 @@ const SideBar = () => {
                     </p>
                 </div>
             </div>
-            <div className='h-[80%] max-sm:h-[90%] w-[100] max-sm:w-[100%] bg-gray-300 space-y-5 sm:pt-2'>
+            <div className='h-[78%] max-sm:h-[90%] w-[100] max-sm:w-[100%] bg-gray-300 space-y-5 sm:pt-2'>
                 <div className='flex justify-between'>
                     <div className='flex items-center gap-2'>
                         <img src={assets.stack_icon} alt="" className='size-3' />

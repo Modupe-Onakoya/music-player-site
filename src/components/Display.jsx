@@ -6,11 +6,10 @@ import DisplayAlbum from './DisplayAlbum'
 
 const Display = () => {
     return (
-        <div>
+        <div className='max-sm:hidden'>
             <Routes>
                 <Route path="/" element={<DisplayHome />} />
                 <Route path="/album/:id" element={<DisplayAlbum />} />
-
             </Routes>
         </div>
     )

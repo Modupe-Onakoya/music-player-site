@@ -6,11 +6,11 @@ import Song from './Song'
 
 const DisplayHome = () => {
     return (
-        <div>
+        <div className='px-4'>
             <NavBar />
             <h1 className='text-bold text-[20px] pb-5'>Featured Charts</h1>
 
-            <div className='flex '>
+            <div className='flex ' >
                 {albumsData.map((item, index) => (
                     <AlbumItem id={index} image={item.image} na={item.name} desc={item.desc} />
                 ))}
@@ -20,7 +20,7 @@ const DisplayHome = () => {
             </h1>
             <div className='flex gap-5'>
                 {songsData.map((item) => (
-                    <Song image={item.image} namee={item.name} />
+                    <Song image={item.image} namee={item.name} desc={item.desc} />
                 ))}
             </div>
 

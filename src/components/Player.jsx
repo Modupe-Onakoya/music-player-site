@@ -7,7 +7,7 @@ const Player = () => {
 
     const { track, seekBar, seekBg, playStatus, play, pause, time, previous, next, seekSong } = useContext(PlayerContext)
     return (
-        <div className='bg-black'>
+        <div className='bg-black flex py-4 mb-200'>
 
             <div className='h-[10%] bg-black flex justify-between item-center text-white px-4'>
                 <div className='hidden lg:flex items-center  gap-4'>

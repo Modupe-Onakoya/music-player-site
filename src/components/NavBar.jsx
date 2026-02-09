@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom'
 const NavBar = () => {
     const navigate = useNavigate()
     return (
-        <div className=' w-[100%] sm:pt-2 flex justify-between px-2 pb-5'>
+        <div className=' w-[100%] sm:pt-2 flex justify-between px-2 pb-5 max-sm:hidden'>
 
             <div className='flex gap-2'>
                 <img onClick={() => navigate(-1)} src={assets.arrow_left} alt="" className='bg-black size-5 rounded-full p-1' />
