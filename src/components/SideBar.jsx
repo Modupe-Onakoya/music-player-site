@@ -7,7 +7,7 @@ const SideBar = () => {
 
     const Navigate = useNavigate()
     return (
-        <div className='h-screen px-4 max-sm:px-1 max-sm:pt-1 space-y-2 sm:pt-2 overflow-hidden w-[25%]  max-sm:w-[50%] hidden sm:block'>
+        <div className='h-screen px-4 max-sm:px-1 max-sm:pt-1 space-y-2 sm:pt-2 overflow-hidden w-[50%]  max-sm:w-[50%] hidden sm:block'>
 
             <div className='h-[10%] max-sm:h-[10%] w-[100%] max-sm:w-[100%] bg-gray-300 '>
                 <div onClick={() => { Navigate("/") }} className='flex items-center p-1 gap-2'>
