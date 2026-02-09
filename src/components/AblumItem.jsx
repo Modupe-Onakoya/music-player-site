@@ -8,7 +8,7 @@ const AlbumItem = ({ id, image, na, desc }) => {
     return (
         <div className=''>
             <div key={id} className='space-y-2'>
-                <img src={image} alt="" className='size-20 max-sm:size-20' onClick={() => { navigate(`/album/${id}`) }} />
+                <img src={image} alt="" className='size-35 max-sm:size-20' onClick={() => { navigate(`/album/${id}`) }} />
                 <p className='text-[13px]'>{na}</p>
                 <p className='w-45 max-sm:w-30 text-[13px]'>
                     {desc}
